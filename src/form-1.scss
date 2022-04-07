@@ -1,0 +1,122 @@
+.form-1 {
+    font-family: 'Roboto', sans-serif;
+    max-width: 428px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    padding: 32px;
+    row-gap: 16px;
+}
+
+.form-1__row--fifth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+}
+
+.form-1__row--icon-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+hr {
+    background: #ECECEE;
+    border-radius: 10px;
+    height: 2px;
+    width: 100%;
+    align-self: stretch;
+    border: none;
+}
+
+.form-1__row--switch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.form-1__label {
+    color: #130F1C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form-1__label--switch {
+    color: #484848;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+::placeholder {
+    color: #BAB9BD;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 14px 12px 12px;
+    background: #FAFAFA;
+    border: none;
+}
+
+.form-1__button {
+    border-radius: 5px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: none;
+    color: #FFFFFF;
+    transition: .2s;
+    width: 100%;
+    background-color: #651FFF;
+    border: 2px solid #651FFF;
+
+    &:hover {
+        color: #651FFF;
+        border: 2px solid #651FFF;
+        background-color: white;
+
+    }
+
+    &:active {
+        background-color: #2d0e71;
+    }
+}
+
+.form-1__button--sign-in {
+    max-width: 364px;
+
+}
+
+.form-1__button--icon {
+    max-width: 174px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #ECECEE;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        border: 1px solid #651FFF;
+        // box-shadow: 4px 4px 6px #FD7918;
+    }
+
+    &:active {
+        background-color: #2d0e71;
+    }
+}
+
+.form__forgot-password {
+    color: #651FFF;
+}

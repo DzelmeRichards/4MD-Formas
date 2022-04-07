@@ -1,0 +1,81 @@
+.form-3 {
+    font-family: 'Roboto', sans-serif;
+    max-width: 665px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+.form-3__contact-info {
+    background-color: #651FFF;
+    color: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    max-width: 216px;
+    width: 100%;
+    padding-top: 46px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.form-3__contact-info h3,
+p,
+span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.form-3__contact-info p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.form-3__contact-info div {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.form-3__contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.form-3__form {
+    padding: 32px 16px 32px 32px;
+    color: #130F1C;
+
+}
+
+.form-3__form h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+}
+
+.form-3__row {
+    display: flex;
+    margin-bottom: 16px;
+
+
+}
+
+.form-3__row--fifth {
+    flex-direction: column;
+}
+
+.form-3__row--sixth {
+    justify-content: end;
+    margin-top: 32px;
+}
+
+.textarea__label {
+    margin-top: 100px;
+}

@@ -1,3 +1,12 @@
-body {
-  background-color: antiquewhite;
-}
+@import 'reset.scss';
+@import 'body.scss';
+@import 'form-1.scss';
+@import 'wrapper.scss';
+@import 'switch.scss';
+@import 'form-2.scss';
+@import 'checkbox.scss';
+@import 'form-3.scss';
+@import 'form-4.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
